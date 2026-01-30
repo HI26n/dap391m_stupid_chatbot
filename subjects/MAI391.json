@@ -1,0 +1,233 @@
+{
+  "subject_id": "MAI391",
+  "subject_code": "MAI391",
+  "subject_name": "Mathematics for Machine Learning",
+  "subject_name_vi": "Toán cho học máy",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course introduces the mathematical concepts and foundations needed to understand the three main components of a machine learning system: data, models, and learning.",
+    "major_instructional_areas": [
+      "Matrix and matrix decomposition",
+      "Vector calculus and gradients",
+      "Probability and distributions",
+      "Continuous optimization",
+      "Dimensionality reduction with PCA",
+      "Classification with SVM"
+    ],
+    "additional_learning": [
+      "Project-based learning",
+      "Independent self-study on mathematical foundations for ML"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact slots to be accepted to the final examination",
+      "mandatory": true,
+      "related_policy": "attendance"
+    },
+    {
+      "task": "Complete all exercises and assignments given by instructor",
+      "mandatory": true,
+      "related_policy": "assignment_submission"
+    },
+    {
+      "task": "Use laptop in class only for learning purposes",
+      "mandatory": true,
+      "related_policy": "classroom_policy"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO0", "description": "Analytic Geometry and inner product spaces" },
+      { "clo_id": "CLO1", "description": "Matrix decomposition and eigenvalue methods" },
+      { "clo_id": "CLO2", "description": "Vector calculus and gradients" },
+      { "clo_id": "CLO3", "description": "Probability and distributions" },
+      { "clo_id": "CLO4", "description": "Continuous optimization" },
+      { "clo_id": "CLO5", "description": "Linear regression" },
+      { "clo_id": "CLO6", "description": "Dimensionality reduction with PCA" },
+      { "clo_id": "CLO7", "description": "Classification with SVM" },
+      { "clo_id": "CLO8", "description": "Attitude and soft skills" }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Mathematics for Machine Learning",
+        "author": "M. P. Deisenroth, A. Faisal, Ch. S. Ong",
+        "publisher": "Cambridge University Press",
+        "published_year": "2020",
+        "edition": "1st",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "Official online book"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Machine Learning cơ bản",
+        "provider": "Vũ Hữu Tiệp",
+        "url": "https://github.com/tiepvupsu/ebookMLCB/blob/master/book_ML.pdf",
+        "note": "Vietnamese ML fundamentals"
+      },
+      {
+        "title": "Multivariate Calculus",
+        "provider": "MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm",
+        "note": "Supplementary calculus material"
+      },
+      {
+        "title": "Mathematics for Machine Learning (Coursera)",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/specializations/mathematics-machine-learning",
+        "note": "Online specialization"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignments",
+      "category": "on-going",
+      "part": 3,
+      "quantity": 3,
+      "weight": 30,
+      "duration_minutes": 180,
+      "completion_criteria": ">0",
+      "format": ["take-home", "in-class"],
+      "question_type": ["open"],
+      "no_of_questions": null,
+      "clos": ["CLO0", "CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO8"],
+      "knowledge_skill_focus": "Chapters 3-12",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "Each assignment includes take-home and in-class components"
+    },
+    {
+      "assessment_type": "project",
+      "display_name": "Computer Project",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 20,
+      "duration_minutes": 300,
+      "completion_criteria": ">0",
+      "format": ["group project", "presentation"],
+      "question_type": ["open"],
+      "no_of_questions": null,
+      "clos": ["CLO5", "CLO6", "CLO7", "CLO8"],
+      "knowledge_skill_focus": "ML algorithm implementation",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "Group of 3-5 students"
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Tests",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 20,
+      "duration_minutes": 30,
+      "completion_criteria": ">0",
+      "format": ["multiple_choice"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 12,
+      "clos": ["CLO0", "CLO1", "CLO2", "CLO3", "CLO4"],
+      "knowledge_skill_focus": "Chapters 3-7",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "Two progress tests"
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+      "completion_criteria": ">=4",
+      "format": ["multiple_choice"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 40,
+      "clos": ["CLO0", "CLO1", "CLO2", "CLO3", "CLO4"],
+      "knowledge_skill_focus": "Selected chapters",
+      "grading_method": "Exam board",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+      "notes": "Computer-based exam"
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "According to university regulations",
+    "retake_policy": "According to academic policy",
+    "academic_integrity": "Academic dishonesty is strictly prohibited"
+  },
+
+  "tools_software": [
+    "Internet",
+    "Python Programme"
+  ],
+
+  "difficulty_level": "advanced",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "math_heavy",
+      "project_based"
+    ]
+  },
+
+  "source": "Official syllabus MAI391",
+  "last_updated": "2026-01-30"
+}

@@ -1,0 +1,18 @@
+{
+"supported_domains": [
+"program_info",
+"subject_info",
+"learning_outcome",
+"assessment_info",
+"academic_policy",
+"teacher_info",
+"prerequisite"
+],
+"unsupported_domains": [
+"tuition_fee",
+"personal_student_record",
+"official_academic_decisions",
+"disciplinary_actions"
+],
+"disclaimer": "Chatbot chỉ mang tính hỗ trợ học tập và tra cứu thông tin, không thay thế cố vấn học tập chính thức theo quy định của Đại học FPT."
+}

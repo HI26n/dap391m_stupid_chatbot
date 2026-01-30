@@ -1,0 +1,278 @@
+{
+  "subject_id": "MAD101",
+  "subject_code": "MAD101",
+  "subject_name": "Discrete Mathematics",
+  "subject_name_vi": "Toán rời rạc",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course provides fundamental concepts of discrete mathematics including logic, sets, functions, algorithms, number theory, counting, graphs, and trees, with applications in information technology and computer science.",
+    "major_instructional_areas": [
+      "Propositional and predicate logic",
+      "Mathematical induction and recursive definitions",
+      "Algorithms and algorithm complexity",
+      "Recurrence relations and divide-and-conquer algorithms",
+      "Integers and modular arithmetic",
+      "Sets, functions, sequences, and combinatorics",
+      "Graphs and weighted graphs",
+      "Trees and tree-based algorithms"
+    ],
+    "additional_learning": [
+      "Use of mathematical software tools for algorithm and number theory practice",
+      "Self-study of additional graph and tree algorithms",
+      "Practice problems from test banks and supplementary materials"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Students must attend at least 80% of contact hours to be accepted to the final examination.",
+      "mandatory": true,
+      "related_policy": "Attendance requirement for final exam eligibility"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      {
+        "clo_id": "CLO1",
+        "description": "Manipulate logical expressions and use logic for inference."
+      },
+      {
+        "clo_id": "CLO2",
+        "description": "Perform basic operations on sets, functions and sequences."
+      },
+      {
+        "clo_id": "CLO3",
+        "description": "Analyze basic algorithms written in pseudo codes and determine their complexities."
+      },
+      {
+        "clo_id": "CLO4",
+        "description": "Discuss applications of modular arithmetic and analyze algorithms on integers."
+      },
+      {
+        "clo_id": "CLO5",
+        "description": "Use induction and recursive definition to prove a statement or to describe an object, and write recursive algorithms."
+      },
+      {
+        "clo_id": "CLO6",
+        "description": "Solve counting problems using basic rules and recurrence relations."
+      },
+      {
+        "clo_id": "CLO7",
+        "description": "Analyze the structure of a graph and find shortest paths in a weighted graph."
+      },
+      {
+        "clo_id": "CLO8",
+        "description": "Analyze the structure of a tree and describe algorithms using trees."
+      }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Discrete Mathematics and Its Applications",
+        "author": "Kenneth Rosen",
+        "publisher": "McGraw-Hill",
+        "published_year": "2007",
+        "edition": "7th (or 6th)",
+        "isbn": "978-0073383095",
+        "is_main": true,
+        "is_online": false,
+        "note": "Primary textbook for the course"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Data Structures and Algorithms in Java (3rd Edition)",
+        "provider": "Adam Drozdek",
+        "url": "",
+        "note": "Supplementary reference for algorithms"
+      },
+      {
+        "title": "Maxima Computer Algebra System",
+        "provider": "Maxima Project",
+        "url": "http://maxima.sourceforge.net/",
+        "note": "Used for symbolic computation and number theory practice"
+      },
+      {
+        "title": "Teaching Suggestion and Applications of Discrete Mathematics for ST1",
+        "provider": "Internal Materials",
+        "url": "",
+        "note": "Supplementary teaching and practice materials"
+      },
+      {
+        "title": "Testbank for ST1",
+        "provider": "Internal Materials",
+        "url": "",
+        "note": "Practice questions for self-study and review"
+      },
+      {
+        "title": "PowerPoint Slides (PP)",
+        "provider": "Previous Lecturers",
+        "url": "",
+        "note": "Lecture slides and presentation materials"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 3,
+      "quantity": 3,
+      "weight": 30,
+      "duration_minutes": 30,
+
+      "completion_criteria": ">0",
+      "format": ["quiz"],
+      "question_type": ["MC", "suitable format"],
+      "no_of_questions": 15,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7", "CLO8"],
+      "knowledge_skill_focus": "Logic, sets, algorithms, number theory, counting, graphs, trees",
+      "grading_method": "Instructor grading or computer-based grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Progress tests are conducted after completion of required chapters and must follow Course Implementation Plan."
+    },
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignments / Exercises",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 20,
+      "duration_minutes": 0,
+
+      "completion_criteria": ">0",
+      "format": ["open"],
+      "question_type": ["problem solving", "presentation", "essay"],
+      "no_of_questions": null,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6"],
+      "knowledge_skill_focus": "Problem solving and applied discrete mathematics",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Each assignment includes take-home and in-class components."
+    },
+    {
+      "assessment_type": "project",
+      "display_name": "Programming Assignment",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 0,
+
+      "completion_criteria": ">0",
+      "format": ["open"],
+      "question_type": ["coding"],
+      "no_of_questions": null,
+
+      "clos": ["CLO3", "CLO4", "CLO7", "CLO8"],
+      "knowledge_skill_focus": "Algorithm implementation and analysis",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Students implement algorithms; source code may account for up to 50% of the total grade."
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 40,
+      "duration_minutes": 60,
+
+      "completion_criteria": ">=4",
+      "format": ["computer-based"],
+      "question_type": ["MC"],
+      "no_of_questions": 50,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7", "CLO8"],
+      "knowledge_skill_focus": "All studied chapters",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Approximately 10% of questions are ABET a.2 objective oriented."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "Follow university regulations",
+    "retake_policy": "According to university retake policy",
+    "academic_integrity": "All academic integrity and plagiarism policies must be strictly followed"
+  },
+
+  "tools_software": [
+    "C programming tools",
+    "Maxima",
+    "Computer algebra systems",
+    "Presentation software"
+  ],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "Core foundation subject for computer science and AI"
+    ]
+  },
+
+  "source": "Official syllabus - MAD101 Discrete Mathematics",
+  "last_updated": "2026-01-30"
+}

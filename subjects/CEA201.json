@@ -1,0 +1,231 @@
+{
+  "subject_id": "CEA201",
+  "subject_code": "CEA201",
+  "subject_name": "Computer Organization and Architecture",
+  "subject_name_vi": "Tổ chức và Kiến trúc máy tính",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course introduces computer organization and architecture, covering both the physical design (organization) and logical design (architecture) of computer systems.",
+    "major_instructional_areas": [
+      "CPU, buses and memory organization",
+      "Instruction sets, machine code and assembly language",
+      "Compiler conventions for assembly language",
+      "Floating-point number representation",
+      "Hardware organization of simple processors",
+      "Virtual memory and address translation",
+      "Input/Output, interrupts and multitasking systems",
+      "Processor structure and function",
+      "Instruction-Level Parallelism and superscalar processors",
+      "Parallel processing and multicore computers"
+    ],
+    "additional_learning": [
+      "Use of simulator tools for architecture exploration",
+      "Using AI tools to analyze and explore architecture concepts",
+      "Hands-on practice with virtual machines and simulators"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact sessions to be eligible for final examination.",
+      "mandatory": true,
+      "related_policy": "Minimum attendance requirement"
+    },
+    {
+      "task": "Complete all exercises, practical work, and quizzes assigned by the instructor.",
+      "mandatory": true,
+      "related_policy": ""
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Explain the general functions and structure of a digital computer." },
+      { "clo_id": "CLO2", "description": "Present an overview of the evolution of computer technology from early digital computers to modern microprocessors." },
+      { "clo_id": "CLO3", "description": "Understand the key performance issues that relate to computer design." },
+      { "clo_id": "CLO4", "description": "Describe in detail the essential elements of computer organization including internal bus, memory, and I/O systems." },
+      { "clo_id": "CLO5", "description": "Summarize, at a top level, the key functions of an operating system." },
+      { "clo_id": "CLO6", "description": "Apply Boolean algebra and digital logic to design and interpret complex digital circuits." },
+      { "clo_id": "CLO7", "description": "Present various addressing modes and essential characteristics of machine instructions." },
+      { "clo_id": "CLO8", "description": "Explain processor structure and function, including Reduced Instruction Set Computers." },
+      { "clo_id": "CLO9", "description": "Investigate trends such as Instruction-Level Parallelism and Superscalar Processors." },
+      { "clo_id": "CLO10", "description": "Use AI tools and simulator tools to further explore main architecture concepts." }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Computer Organization and Architecture: Design for Performance",
+        "author": "William Stallings",
+        "publisher": "Prentice Hall",
+        "published_year": "2012",
+        "edition": "9th/10th",
+        "isbn": "978-0132936330 / 978-0134101613",
+        "is_main": true,
+        "is_online": false,
+        "note": "Primary textbook"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Computer Architecture: A Quantitative Approach",
+        "provider": "Morgan Kaufmann",
+        "url": "",
+        "note": "Hennessy & Patterson reference"
+      },
+      {
+        "title": "William Stallings COA Student Resources",
+        "provider": "William Stallings",
+        "url": "http://williamstallings.com/ComputerOrganization/COA9e-student/",
+        "note": "Student support materials"
+      },
+      {
+        "title": "MARIE Simulator",
+        "provider": "",
+        "url": "",
+        "note": "Architecture simulation tool"
+      },
+      {
+        "title": "ParaCacheSimulator",
+        "provider": "",
+        "url": "",
+        "note": "Cache simulation tool"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignments",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 20,
+      "duration_minutes": 0,
+
+      "completion_criteria": ">0",
+      "format": ["report", "programming"],
+      "question_type": [],
+      "no_of_questions": null,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9","CLO10"],
+      "knowledge_skill_focus": "Basic computer components and assembly-level understanding",
+      "grading_method": "Teacher assessed",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Report writing or assembly program development."
+    },
+    {
+      "assessment_type": "participation",
+      "display_name": "Exercises",
+      "category": "on-going",
+      "part": 4,
+      "quantity": 4,
+      "weight": 40,
+      "duration_minutes": 0,
+
+      "completion_criteria": ">0",
+      "format": ["homework", "in_class_presentation"],
+      "question_type": [],
+      "no_of_questions": null,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9","CLO10"],
+      "knowledge_skill_focus": "Studied chapters and applied knowledge",
+      "grading_method": "Teacher assessed",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Apply AI tools to explore subject content and submit results."
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 40,
+      "duration_minutes": 60,
+
+      "completion_criteria": "Final exam taken",
+      "format": ["multiple_choice"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 50,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9","CLO10"],
+      "knowledge_skill_focus": "All chapters; digital systems and computer architecture",
+      "grading_method": "By Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Covers all chapters."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "",
+    "retake_policy": "",
+    "academic_integrity": "Students must follow university academic integrity policies."
+  },
+
+  "tools_software": [
+    "AI tools",
+    "Simulator software",
+    "Internet",
+    "Textbook"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "High theory + architecture concepts",
+      "Uses simulators and AI tools"
+    ]
+  },
+
+  "source": "Official syllabus CEA201",
+  "last_updated": "2026-01-30"
+}

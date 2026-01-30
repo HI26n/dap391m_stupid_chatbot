@@ -1,0 +1,262 @@
+{
+  "subject_id": "DBI202",
+  "subject_code": "DBI202",
+  "subject_name": "Database Systems",
+  "subject_name_vi": "Các hệ cơ sở dữ liệu",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "Knowledge about database systems has become an essential part of an education in computer science because database management has evolved from a specialized computer application to a central component of a modern computing environment.",
+    "major_instructional_areas": [
+      "Database management basic concepts",
+      "Database design",
+      "Database languages",
+      "Database-system implementation",
+      "Efficient data organization, maintenance, and retrieval using DBMS"
+    ],
+    "additional_learning": []
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact slots to be accepted to the final examination.",
+      "mandatory": true,
+      "related_policy": "Attendance policy"
+    },
+    {
+      "task": "Complete and submit all exercises given by instructor on time.",
+      "mandatory": true,
+      "related_policy": "Coursework policy"
+    },
+    {
+      "task": "Promptly access https://flm.fpt.edu.vn/ for up-to-date course information.",
+      "mandatory": true,
+      "related_policy": "Learning management system usage"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Understand the database concepts and database management system software." },
+      { "clo_id": "CLO2", "description": "Understand the relational model of data and Algebraic Query Language." },
+      { "clo_id": "CLO3", "description": "Understand data normalization and apply normalization techniques in database design." },
+      { "clo_id": "CLO4", "description": "Model application data requirements using ER diagrams and design database schemas based on conceptual models." },
+      { "clo_id": "CLO5", "description": "Be proficient in SQL including DDL and DML." },
+      { "clo_id": "CLO6", "description": "Understand PL/SQL concepts and work with Views, Cursors, Stored Procedures, Functions, and Triggers." },
+      { "clo_id": "CLO7", "description": "Apply indexing in database design and query optimization." }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "First Course in Database Systems",
+        "author": "Jeffrey D. Ullman, Jennifer Widom",
+        "publisher": "Pearson",
+        "published_year": "2008",
+        "edition": "Third edition",
+        "isbn": "9781292025827 / 9780136006374",
+        "is_main": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "title": "Database Management System",
+        "author": "Raghu Ramakrishnan",
+        "publisher": "McGraw-Hill",
+        "published_year": "",
+        "edition": "Third edition",
+        "isbn": "978-8131769591",
+        "is_main": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "title": "Database Management System (DBMS): A Practical Approach",
+        "author": "Rajiv Chopra",
+        "publisher": "S Chand Publications",
+        "published_year": "",
+        "edition": "",
+        "isbn": "9788121932455",
+        "is_main": false,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Course slides (.pptx)",
+        "provider": "Instructor",
+        "url": "",
+        "note": ""
+      },
+      {
+        "title": "Labs & assignments",
+        "provider": "Instructor",
+        "url": "",
+        "note": ""
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignment",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 20,
+      "duration_minutes": 0,
+      "completion_criteria": ">0",
+      "format": [],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": [],
+      "knowledge_skill_focus": "All subjects in syllabus",
+      "grading_method": "In class, by teacher",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "lab",
+      "display_name": "Lab",
+      "category": "on-going",
+      "part": 5,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 90,
+      "completion_criteria": ">0",
+      "format": [],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": [],
+      "knowledge_skill_focus": "",
+      "grading_method": "In class, by teacher",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "practical_exam",
+      "display_name": "Practical Exam",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 85,
+      "completion_criteria": ">0",
+      "format": [],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": [],
+      "knowledge_skill_focus": "",
+      "grading_method": "By exam board",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 10,
+      "duration_minutes": 30,
+      "completion_criteria": ">0",
+      "format": ["Multiple choice"],
+      "question_type": ["Multiple choices"],
+      "no_of_questions": 20,
+      "clos": [],
+      "knowledge_skill_focus": "",
+      "grading_method": "Marked by computer (LMS)",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "Instruction and schedules for Progress Tests must be presented in the Course Implementation Plan. Instructor must review after grading."
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+      "completion_criteria": "4",
+      "format": [],
+      "question_type": [],
+      "no_of_questions": 50,
+      "clos": [],
+      "knowledge_skill_focus": "All subjects in syllabus",
+      "grading_method": "Exam room",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+      "notes": "Final exam questions must be updated or different at least 70% from previous ones."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "",
+    "retake_policy": "",
+    "academic_integrity": ""
+  },
+
+  "tools_software": [
+    "Microsoft SQL Server"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": []
+  },
+
+  "source": "Official syllabus DBI202",
+  "last_updated": "2026-01-30"
+}

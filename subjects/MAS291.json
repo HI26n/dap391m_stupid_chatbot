@@ -1,0 +1,249 @@
+{
+  "subject_id": "MAS291",
+  "subject_code": "MAS291",
+  "subject_name": "Statistics & Probability",
+  "subject_name_vi": "Xác suất thống kê",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course provides fundamental knowledge of probability and statistics for engineering students, including probability models, probability distributions, descriptive statistics, statistical inference, regression and correlation.",
+    "knowledge": [
+      "Fundamental principles of probability and their applications",
+      "Frequently used probability distributions",
+      "Basics of descriptive statistics",
+      "Statistical inference: parameter estimation, hypothesis testing, regression and correlation"
+    ],
+    "skills": [
+      "Recognize simple statistical models and apply them to solve engineering problems",
+      "Use statistical software such as Excel and Maxima for problem solving",
+      "Develop self-study skills"
+    ],
+    "attitude": [
+      "Responsibility in learning",
+      "Active participation in statistical problem solving",
+      "Independent learning"
+    ]
+  },
+
+  "prerequisites": [
+    "MAE101",
+    "MAC101"
+  ],
+
+  "student_tasks": [
+    "Attend at least 80% of contact hours to be accepted to the final examination"
+  ],
+
+  "tools": [
+    "Internet",
+    "Computer",
+    "Excel",
+    "DDXL add-ons"
+  ],
+
+  "scoring_scale": 10,
+
+  "completion_criteria": {
+    "ongoing_assessment_min": ">0",
+    "final_exam_min": 4,
+    "final_result_min": 5,
+    "description": "Every on-going assessment component > 0, Final Result >=5 and Final Exam Score >=4"
+  },
+
+  "materials": [
+    {
+      "title": "Applied Statistics and Probability for Engineers",
+      "author": "Montgomery D.C. & Runger G.C.",
+      "publisher": "John Wiley & Sons",
+      "year": "2006",
+      "edition": "4th/5th/6th/7th",
+      "isbn": "9781119718871",
+      "is_main": true,
+      "is_hard_copy": true,
+      "is_online": false,
+      "note": "7th edition ISBN: 9781119718871"
+    },
+    {
+      "title": "PowerPoint slides",
+      "author": "",
+      "publisher": "",
+      "year": "",
+      "edition": "",
+      "isbn": "",
+      "is_main": false,
+      "is_hard_copy": false,
+      "is_online": true,
+      "note": ""
+    },
+    {
+      "title": "Computerized tools (Excel and DDXL add-ons)",
+      "author": "",
+      "publisher": "",
+      "year": "",
+      "edition": "",
+      "isbn": "",
+      "is_main": false,
+      "is_hard_copy": false,
+      "is_online": true,
+      "note": ""
+    },
+    {
+      "title": "Elementary Statistics Using Excel",
+      "author": "Mario F. Triola",
+      "publisher": "Addison-Wesley",
+      "year": "200",
+      "edition": "3rd",
+      "isbn": "0321365135",
+      "is_main": false,
+      "is_hard_copy": true,
+      "is_online": false,
+      "note": ""
+    }
+  ],
+
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "clo_name": "Discuss the roles of statistics in engineering",
+      "lo_details": [
+        "Explain types of reasoning of statistical inference",
+        "Distinguish mechanistic and empirical models",
+        "Describe methods engineers use to collect data"
+      ]
+    },
+    {
+      "clo_id": "CLO2",
+      "clo_name": "Identify sample spaces and events and calculate probabilities",
+      "lo_details": [
+        "Describe sample spaces and events",
+        "Calculate probabilities using addition and complementary rules",
+        "Apply conditional probability and Bayes theorem",
+        "Determine independence of events",
+        "Recognize random variables"
+      ]
+    },
+    {
+      "clo_id": "CLO3",
+      "clo_name": "Describe discrete probability distributions",
+      "lo_details": [
+        "Check probability mass functions",
+        "Compute mean and variance of discrete random variables",
+        "Apply binomial, Poisson, geometric and related distributions"
+      ]
+    },
+    {
+      "clo_id": "CLO4",
+      "clo_name": "Describe continuous probability distributions",
+      "lo_details": [
+        "Check probability density functions",
+        "Compute mean and variance of continuous random variables",
+        "Apply uniform, exponential and normal distributions",
+        "Standardize normal distributions"
+      ]
+    },
+    {
+      "clo_id": "CLO5",
+      "clo_name": "Describe data using numerical summaries and visual displays",
+      "lo_details": [
+        "Construct frequency distributions and histograms",
+        "Compute quartiles and box plots",
+        "Identify outliers"
+      ]
+    },
+    {
+      "clo_id": "CLO6",
+      "clo_name": "Apply sampling distributions and Central Limit Theorem",
+      "lo_details": [
+        "Discuss sampling distributions",
+        "Apply CLT to analyze sampling means"
+      ]
+    },
+    {
+      "clo_id": "CLO7",
+      "clo_name": "Construct confidence intervals",
+      "lo_details": [
+        "Construct confidence intervals for means",
+        "Construct confidence intervals for proportions"
+      ]
+    },
+    {
+      "clo_id": "CLO8",
+      "clo_name": "Perform hypothesis testing",
+      "lo_details": [
+        "Formulate hypotheses",
+        "Compute test statistics and p-values",
+        "Identify types of errors"
+      ]
+    },
+    {
+      "clo_id": "CLO9",
+      "clo_name": "Construct simple linear regression models",
+      "lo_details": [
+        "Compute sums of squares",
+        "Determine regression equation and correlation",
+        "Perform hypothesis testing in regression"
+      ]
+    }
+  ],
+
+  "assessments": [
+    {
+      "category": "Assignment",
+      "type": "on-going",
+      "quantity": 2,
+      "weight": 20,
+      "duration": "3 hours",
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6"],
+      "note": "Assignment 1 covers Chapters 1–3; Assignment 2 covers Chapters 4, 6, 7"
+    },
+    {
+      "category": "Computer Project",
+      "type": "on-going",
+      "quantity": 1,
+      "weight": 15,
+      "duration": "5 hours",
+      "clos": ["CLO7", "CLO8", "CLO9"],
+      "note": "Statistical analysis project using software"
+    },
+    {
+      "category": "Progress Test",
+      "type": "on-going",
+      "quantity": 3,
+      "weight": 30,
+      "duration": "30 minutes",
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7", "CLO8", "CLO9"],
+      "note": "Three progress tests after major chapters"
+    },
+    {
+      "category": "Final Exam",
+      "type": "final",
+      "quantity": 1,
+      "weight": 35,
+      "duration": "60 minutes",
+      "clos": [],
+      "note": "Computer gradable final exam"
+    }
+  ],
+
+  "chatbot_support": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": []
+  },
+
+  "source": "Official syllabus MAS291",
+  "last_updated": "2026-01-30"
+}

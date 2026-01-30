@@ -1,0 +1,222 @@
+{
+  "subject_id": "SSL101c",
+  "subject_code": "SSL101c",
+  "subject_name": "Academic Skills for University Success",
+  "subject_name_vi": "Kỹ năng học tập ở Đại học",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 0,
+    "slots_per_week": 0,
+    "minutes_per_slot": 0
+  },
+
+  "description": {
+    "overview": "This course develops essential academic skills including information and digital literacy, problem solving, creativity, critical thinking, communication, and academic integrity through MOOCs and blended learning.",
+    "major_instructional_areas": [
+      "Information and digital literacy",
+      "Problem solving and creativity",
+      "Critical thinking",
+      "Communication skills",
+      "Academic integrity and ethical use of information",
+      "Capstone project for academic skills application"
+    ],
+    "additional_learning": [
+      "Completion of Coursera MOOCs",
+      "Self-study and online practice",
+      "Capstone project activities"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Join the online specialization when invited by the admin.",
+      "mandatory": true,
+      "related_policy": "MOOC enrollment policy"
+    },
+    {
+      "task": "Enroll and complete each MOOC with at least 5 hours/week of study.",
+      "mandatory": true,
+      "related_policy": "MOOC participation requirement"
+    },
+    {
+      "task": "Respect the Coursera Code of Conduct.",
+      "mandatory": true,
+      "related_policy": "Coursera Code of Conduct"
+    },
+    {
+      "task": "Keep online learning progress promptly (bonus may be awarded).",
+      "mandatory": false,
+      "related_policy": "Bonus and progress tracking policy"
+    },
+    {
+      "task": "Participate in forum discussions.",
+      "mandatory": false,
+      "related_policy": "Online participation policy"
+    },
+    {
+      "task": "Attend offline sessions at campus (optional).",
+      "mandatory": false,
+      "related_policy": "Offline session policy"
+    },
+    {
+      "task": "Must complete all MOOCs of specialization with certification to take the final exam.",
+      "mandatory": true,
+      "related_policy": "Final exam eligibility requirement"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 0,
+    "must_complete_additional_learning": true,
+    "additional_learning_required_for": [
+      "Final Exam eligibility (MOOC certification required)"
+    ]
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      {
+        "clo_id": "CLO1",
+        "description": "Understand and demonstrate how to develop Information & Digital Literacy Skills."
+      },
+      {
+        "clo_id": "CLO2",
+        "description": "Develop Problem Solving and Creativity Skills."
+      },
+      {
+        "clo_id": "CLO3",
+        "description": "Develop Critical Thinking Skills."
+      },
+      {
+        "clo_id": "CLO4",
+        "description": "Develop Communication Skills."
+      },
+      {
+        "clo_id": "CLO5",
+        "description": "Apply all learned skills to build a Capstone Project."
+      }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Academic Skills for University Success Specialization",
+        "author": "",
+        "publisher": "Coursera / University of Sydney",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "Primary online specialization program"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "MOOC 01: Introduction to Information & Digital Literacy for University Success",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/digital-literacy",
+        "note": "Information and digital literacy"
+      },
+      {
+        "title": "MOOC 02: Introduction to Problem-Solving Skill for University Success",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/problem-solving-skills",
+        "note": "Problem solving skills"
+      },
+      {
+        "title": "MOOC 03: Critical Thinking Skills for University Success",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/critical-thinking-skills",
+        "note": "Critical thinking skills"
+      },
+      {
+        "title": "MOOC 04: Communication Skills for University Success",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/communication-skills",
+        "note": "Communication skills"
+      },
+      {
+        "title": "MOOC 05: Academic Skills for University Success: Capstone",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/academic-skills-project",
+        "note": "Capstone project"
+      },
+      {
+        "title": "How To Avoid Plagiarism with Digital Tools (Guided Project)",
+        "provider": "FPT University / Coursera",
+        "url": "",
+        "note": "Optional practice for academic integrity"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Theoretical Exam (TE)",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 100,
+      "duration_minutes": 60,
+
+      "completion_criteria": ">=4",
+      "format": ["computer-based"],
+      "question_type": ["multiple choice"],
+      "no_of_questions": 60,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5"],
+      "knowledge_skill_focus": "All course modules",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": true,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Final Result = min(10, Theoretical Exam + Bonus). Bonus is awarded if all MOOCs are completed before deadline."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": false,
+    "late_submission_policy": "Not applicable (MOOC-based course)",
+    "retake_policy": "According to university retake policy",
+    "academic_integrity": "Strictly follow Coursera Code of Conduct and university academic integrity regulations"
+  },
+
+  "tools_software": [
+    "Coursera platform",
+    "Online discussion forums",
+    "Digital referencing tools"
+  ],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "MOOC-based blended learning",
+      "MOOC certification required for final exam",
+      "Bonus point policy applies"
+    ]
+  },
+
+  "source": "Official syllabus - SSL101c Academic Skills for University Success",
+  "last_updated": "2026-01-30"
+}

@@ -1,0 +1,232 @@
+{
+  "subject_id": "JPD123",
+  "subject_code": "JPD123",
+  "subject_name": "Elementary Japanese 1-A1.2",
+  "subject_name_vi": "Tiếng Nhật sơ cấp 1-A1.2",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "Môn học cung cấp kiến thức, kỹ năng cơ bản của tiếng Nhật ở trình độ sơ cấp 1 (tương đương với trình độ A1.2) cho sinh viên học tiếng Nhật là ngoại ngữ 2 tại trường Đại học. Môn học là học phần tiếp theo của JPD113.",
+    "major_instructional_areas": [
+      "Từ vựng, chữ Hán và cấu trúc ngữ pháp trình độ sơ cấp",
+      "Giao tiếp cơ bản: giới thiệu bản thân, quê hương, dự định",
+      "Kỹ năng nghe, nói, đọc trong ngữ cảnh hội thoại đơn giản",
+      "Role-play và hoạt động giao tiếp trên lớp"
+    ],
+    "additional_learning": [
+      "Tự học từ vựng, chữ Hán ngoài giờ",
+      "Luyện tập hội thoại và phát âm",
+      "Ôn tập qua tài liệu bổ trợ và nền tảng trực tuyến"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Tham dự tối thiểu 80% số giờ học để đủ điều kiện dự thi cuối kỳ.",
+      "mandatory": true,
+      "related_policy": "attendance"
+    },
+    {
+      "task": "Học từ vựng, chuẩn bị bài trước khi đến lớp và hoàn thành bài tập được giao.",
+      "mandatory": true,
+      "related_policy": "self_study"
+    },
+    {
+      "task": "Tham gia tích cực các hoạt động nhóm, role-play và thảo luận trên lớp.",
+      "mandatory": true,
+      "related_policy": "class_participation"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      {
+        "clo_id": "CLO1",
+        "description": "Ghi nhớ gần 300 từ vựng, hơn 40 chữ Hán và gần 30 cấu trúc ngữ pháp cơ bản."
+      },
+      {
+        "clo_id": "CLO2",
+        "description": "Vận dụng từ vựng, ngữ pháp và chữ Hán để giao tiếp cơ bản về quê hương, dự định, hoạt động và tình huống đơn giản."
+      },
+      {
+        "clo_id": "CLO3",
+        "description": "Đọc hiểu các đoạn văn ngắn trình độ sơ cấp bằng tiếng Nhật."
+      },
+      {
+        "clo_id": "CLO4",
+        "description": "Rèn luyện kỹ năng làm việc nhóm và phát triển bản thân thông qua hoạt động role-play."
+      }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "できる日本語 初級 本冊",
+        "author": "嶋田和子",
+        "publisher": "アルク",
+        "published_year": "2011",
+        "edition": "",
+        "isbn": "978-4757419773",
+        "is_main": true,
+        "is_online": false,
+        "note": "Giáo trình chính Dekiru Nihongo sơ cấp"
+      },
+      {
+        "title": "わたしのことばノート 初級",
+        "author": "嶋田 和子",
+        "publisher": "凡人社",
+        "published_year": "2012",
+        "edition": "",
+        "isbn": "978-4893588111",
+        "is_main": true,
+        "is_online": false,
+        "note": "Sổ từ vựng"
+      },
+      {
+        "title": "わたしの文法ノート 初級",
+        "author": "嶋田和子",
+        "publisher": "凡人社",
+        "published_year": "2011",
+        "edition": "",
+        "isbn": "978-4893588012",
+        "is_main": true,
+        "is_online": false,
+        "note": "Sổ ngữ pháp"
+      },
+      {
+        "title": "漢字たまご 初級",
+        "author": "有山優樹 et al.",
+        "publisher": "凡人社",
+        "published_year": "2012",
+        "edition": "",
+        "isbn": "978-4893588319",
+        "is_main": true,
+        "is_online": false,
+        "note": "Giáo trình chữ Hán"
+      }
+    ],
+    "additional_learning_materials": []
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Small Tests",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 40,
+      "duration_minutes": 35,
+      "completion_criteria": ">0",
+      "format": ["multiple_choice"],
+      "question_type": ["vocabulary", "grammar", "kanji", "reading"],
+      "no_of_questions": 30,
+      "clos": ["CLO1", "CLO2"],
+      "knowledge_skill_focus": "Từ vựng, ngữ pháp, chữ Hán và đọc",
+      "grading_method": "Giảng viên chấm trực tiếp",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "Small test 1 và 2, mỗi bài 20%"
+    },
+    {
+      "assessment_type": "participation",
+      "display_name": "Class Participation",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 15,
+      "duration_minutes": 135,
+      "completion_criteria": ">0",
+      "format": [],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": [],
+      "knowledge_skill_focus": "Chuyên cần và thái độ học tập",
+      "grading_method": "Đánh giá trên lớp",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "Chuyên cần 5%, thái độ và tham gia 10%"
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 2,
+      "quantity": 2,
+      "weight": 45,
+      "duration_minutes": 40,
+      "completion_criteria": ">=4/10",
+      "format": ["multiple_choice", "speaking"],
+      "question_type": ["vocabulary", "grammar", "kanji", "reading", "speaking"],
+      "no_of_questions": 30,
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4"],
+      "knowledge_skill_focus": "Nghe, nói, đọc, từ vựng, ngữ pháp, chữ Hán",
+      "grading_method": "Thi đề chung toàn trường",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+      "notes": "Thi cuối kỳ gồm phần trắc nghiệm và speaking"
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "Theo quy định của khoa",
+    "retake_policy": "Theo quy định đào tạo",
+    "academic_integrity": "Tuân thủ quy định về trung thực học thuật"
+  },
+
+  "tools_software": [
+    "PowerPoint",
+    "ChatGPT",
+    "Copilot",
+    "Tài nguyên học trực tuyến"
+  ],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "has_speaking_exam",
+      "attendance_required_80_percent"
+    ]
+  },
+
+  "source": "Official syllabus JPD123",
+  "last_updated": "2026-01-30"
+}

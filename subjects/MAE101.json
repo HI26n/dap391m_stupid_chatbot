@@ -1,0 +1,242 @@
+{
+  "subject_id": "MAE101",
+  "subject_code": "MAE101",
+  "subject_name": "Mathematics for Engineering",
+  "subject_name_vi": "Toán cho ngành kỹ thuật",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course provides fundamental concepts of single-variable calculus and linear algebra for engineering applications, including limits, derivatives, integrals, linear systems, matrices, vector spaces, and linear transformations.",
+    "major_instructional_areas": [
+      "Limits, derivatives, and integrals of single-variable functions",
+      "Applications of calculus in science, technology, economics, and finance",
+      "Systems of linear equations and matrices",
+      "Vector spaces, basis, and dimension",
+      "Linear transformations in R2 and R3"
+    ],
+    "additional_learning": [
+      "Self-study using online calculus and linear algebra resources",
+      "Practice with computer algebra systems",
+      "Guided projects for linear transformations using programming tools"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Students must attend at least 80% of contact hours to be accepted to the final examination.",
+      "mandatory": true,
+      "related_policy": "Attendance requirement for final exam eligibility"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Describe basic properties and find the limit of a function." },
+      { "clo_id": "CLO2", "description": "Calculate derivatives of a function." },
+      { "clo_id": "CLO3", "description": "Use derivatives to analyze a function and to solve applications." },
+      { "clo_id": "CLO4", "description": "Calculate integrals and find area under the graph of a function." },
+      { "clo_id": "CLO5", "description": "Solve a system of linear equations using Gaussian elimination." },
+      { "clo_id": "CLO6", "description": "Perform basic operations on matrices and manipulate matrix transformations." },
+      { "clo_id": "CLO7", "description": "Find the determinant, inverse and diagonalization of a matrix." },
+      { "clo_id": "CLO8", "description": "Manipulate vector operations and linear transformations in R3." },
+      { "clo_id": "CLO9", "description": "Find the dimension and bases of a subspace." }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Essential Calculus",
+        "author": "James Stewart",
+        "publisher": "Thomson Brooks/Cole",
+        "published_year": "",
+        "edition": "",
+        "isbn": "978-0-495-10860-3",
+        "is_main": true,
+        "is_online": false,
+        "note": "Primary calculus textbook"
+      },
+      {
+        "title": "Linear Algebra with Applications",
+        "author": "W. Keith Nicholson",
+        "publisher": "McGraw-Hill Education",
+        "published_year": "",
+        "edition": "",
+        "isbn": "987-1-259-07299-4",
+        "is_main": true,
+        "is_online": false,
+        "note": "Primary linear algebra textbook"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Calculus Volume 1",
+        "provider": "OpenStax",
+        "url": "https://openstax.org/details/books/calculus-volume-1",
+        "note": "Free online calculus textbook"
+      },
+      {
+        "title": "Calculus Volume 2",
+        "provider": "OpenStax",
+        "url": "https://openstax.org/details/books/calculus-volume-2",
+        "note": "Free online calculus textbook"
+      },
+      {
+        "title": "Linear Algebra with Applications",
+        "provider": "Lyryx Online Resources",
+        "url": "https://lyryx.com/linear-algebra-applications/",
+        "note": "Online linear algebra resource"
+      },
+      {
+        "title": "Calculus for Engineers",
+        "provider": "Donald Trim, Prentice Hall",
+        "url": "",
+        "note": "Supplementary calculus reference"
+      },
+      {
+        "title": "Maxima Computer Algebra System",
+        "provider": "Maxima Project",
+        "url": "http://maxima.sourceforge.net/",
+        "note": "Symbolic computation and practice tool"
+      },
+      {
+        "title": "Coursera - Linear Transformation with Python (Guided Project)",
+        "provider": "Coursera / FPT University",
+        "url": "",
+        "note": "Optional guided project for practice"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignments / Exercises",
+      "category": "on-going",
+      "part": 3,
+      "quantity": 3,
+      "weight": 30,
+      "duration_minutes": 180,
+
+      "completion_criteria": ">0",
+      "format": ["open"],
+      "question_type": ["problem solving", "presentation", "essay"],
+      "no_of_questions": null,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7", "CLO8", "CLO9"],
+      "knowledge_skill_focus": "Calculus and linear algebra problem solving",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Each assignment includes take-home and in-class components."
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 3,
+      "quantity": 3,
+      "weight": 30,
+      "duration_minutes": 40,
+
+      "completion_criteria": ">0",
+      "format": ["quiz"],
+      "question_type": ["MC", "suitable format"],
+      "no_of_questions": 20,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7", "CLO8", "CLO9"],
+      "knowledge_skill_focus": "Calculus and linear algebra theory and applications",
+      "grading_method": "Instructor grading and computer-based grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Progress tests are conducted after completion of required chapters."
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 40,
+      "duration_minutes": 60,
+
+      "completion_criteria": ">=4",
+      "format": ["computer-based"],
+      "question_type": ["MC"],
+      "no_of_questions": 50,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7", "CLO8", "CLO9"],
+      "knowledge_skill_focus": "All studied chapters",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Final exam structure: Level 1 (10%), Level 2 (80%), Level 3 (10%). Approximately 10% ABET a.2 oriented."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "Follow university regulations",
+    "retake_policy": "According to university retake policy",
+    "academic_integrity": "All academic integrity and plagiarism policies must be strictly followed"
+  },
+
+  "tools_software": [
+    "Maxima",
+    "Computer algebra systems",
+    "Programming tools",
+    "Presentation software"
+  ],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "Core mathematics foundation for engineering and AI programs"
+    ]
+  },
+
+  "source": "Official syllabus - MAE101 Mathematics for Engineering",
+  "last_updated": "2026-01-30"
+}

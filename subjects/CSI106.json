@@ -1,0 +1,286 @@
+{
+  "subject_id": "CSI106",
+  "subject_code": "CSI106",
+  "subject_name": "Introduction to Computer Science",
+  "subject_name_vi": "Nhập môn khoa học máy tính",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course provides an overview of computer fundamentals. Topics cover all areas of computer science in breadth such as computer organization, network, operating system, data structure, file structure, social and ethical issues.",
+    "major_instructional_areas": [
+      "Introduction to Von Neumann Model and computer components",
+      "Numbering system & data representation",
+      "Different data types and operations on data",
+      "The concepts of computer networking and internet",
+      "Operating system",
+      "Introduction to basic algorithms and algorithms representation",
+      "Introduction to Data structure and File structure",
+      "The concepts of database",
+      "Software engineering",
+      "Computing Security & Ethics",
+      "Introduction to Artificial Intelligence (Additional Learning)"
+    ],
+    "additional_learning": [
+      {
+        "title": "AI For Everyone",
+        "provider": "Coursera - DeepLearning.AI",
+        "url": "https://www.coursera.org/learn/ai-for-everyone/",
+        "note": "Students must complete the course and achieve certificate"
+      }
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact sessions to be eligible for final examination",
+      "mandatory": true,
+      "related_policy": "attendance_policy"
+    },
+    {
+      "task": "Complete and submit all exercises, assignments and labs on time",
+      "mandatory": true,
+      "related_policy": "coursework_policy"
+    },
+    {
+      "task": "Use laptop in class only for learning purpose",
+      "mandatory": true,
+      "related_policy": "classroom_policy"
+    },
+    {
+      "task": "Complete Additional Learning (AI For Everyone) and achieve certificate",
+      "mandatory": true,
+      "related_policy": "additional_learning_policy"
+    },
+    {
+      "task": "Regularly check FLM system for up-to-date course information",
+      "mandatory": true,
+      "related_policy": "flm_policy"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": true,
+    "additional_learning_required_for": [
+      "presentation",
+      "final_exam"
+    ]
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Understand the subsystems of a computer and describe the role of these components" },
+      { "clo_id": "CLO2", "description": "Know how to convert a number from one base to other base (decimal, binary, octal and hexadecimal)" },
+      { "clo_id": "CLO3", "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data" },
+      { "clo_id": "CLO4", "description": "Describe the layers in networking and their relationship" },
+      { "clo_id": "CLO5", "description": "Understand the role of OS in a computer system" },
+      { "clo_id": "CLO6", "description": "Define an algorithm and describe tools used to develop algorithms" },
+      { "clo_id": "CLO7", "description": "Explain how a program in a high-level language is translated into machine language" },
+      { "clo_id": "CLO8", "description": "Describe the software lifecycle" },
+      { "clo_id": "CLO9", "description": "Discuss some data structures: Array, Records, Linked list" },
+      { "clo_id": "CLO10", "description": "Distinguish between text file and binary file and access methods" },
+      { "clo_id": "CLO11", "description": "Describe and explain operations within a relational database" },
+      { "clo_id": "CLO12", "description": "Describe security goals and discuss ethical issues" },
+      { "clo_id": "CLO13", "description": "Describe artificial intelligence and its basic concepts" }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Foundations Of Computer Science",
+        "author": "Behrouz Forouzan",
+        "publisher": "Cengage",
+        "published_year": "2017",
+        "edition": "4th",
+        "isbn": "978-1-4737-5104-0",
+        "is_main": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "title": "Fundamentals of Information Systems Security",
+        "author": "",
+        "publisher": "Jones & Bartlett",
+        "published_year": "2016",
+        "edition": "3rd",
+        "isbn": "",
+        "is_main": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "title": "Computer Architecture: A Quantitative Approach",
+        "author": "John L. Hennessy, David A. Patterson",
+        "publisher": "Morgan Kaufmann",
+        "published_year": "2011",
+        "edition": "5th",
+        "isbn": "",
+        "is_main": false,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "AI For Everyone",
+        "provider": "Coursera - DeepLearning.AI",
+        "url": "https://www.coursera.org/learn/ai-for-everyone/",
+        "note": "Required additional learning for presentation and final exam eligibility"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "presentation",
+      "display_name": "Group Presentation",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 10,
+      "duration_minutes": 30,
+
+      "completion_criteria": ">0",
+      "format": ["ppt", "oral"],
+      "question_type": [],
+      "no_of_questions": null,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9","CLO10","CLO13"],
+      "knowledge_skill_focus": "Topics related to Additional Learning and core CS concepts",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": true,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Presentation 2 is graded only if students complete AI For Everyone and achieve certificate"
+    },
+
+    {
+      "assessment_type": "lab",
+      "display_name": "Lab",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 20,
+      "duration_minutes": 90,
+
+      "completion_criteria": ">0",
+      "format": ["hands-on"],
+      "question_type": [],
+      "no_of_questions": null,
+
+      "clos": ["CLO2","CLO6","CLO7"],
+      "knowledge_skill_focus": "Practical exercises on studied topics",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Labs are arranged relevant to theory. Students must finish and submit in class."
+    },
+
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 3,
+      "quantity": 3,
+      "weight": 30,
+      "duration_minutes": 30,
+
+      "completion_criteria": ">0",
+      "format": ["mcq", "short_answer"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 30,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9","CLO10","CLO11","CLO12","CLO13"],
+      "knowledge_skill_focus": "Chapter-based theory and concepts",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Tests conducted after finishing required chapters and reviewed by instructor"
+    },
+
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 40,
+      "duration_minutes": 60,
+
+      "completion_criteria": "Must meet attendance and additional learning requirements",
+      "format": ["computer-based"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 60,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9","CLO10","CLO11","CLO12"],
+      "knowledge_skill_focus": "All studied chapters: concepts and algorithms",
+      "grading_method": "Computer marked, supervised by exam board",
+
+      "rules": {
+        "requires_additional_learning_certificate": true,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+
+      "notes": "Students must complete Additional Learning to be eligible for final exam"
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "Follow campus and course implementation plan",
+    "retake_policy": "According to FPT University regulations",
+    "academic_integrity": "Academic dishonesty is handled according to university policy"
+  },
+
+  "tools_software": [],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "additional_learning_required",
+      "attendance_80_percent_required",
+      "computer_based_final_exam"
+    ]
+  },
+
+  "source": "FPT University syllabus - CSI106",
+  "last_updated": "2026-01-30"
+}

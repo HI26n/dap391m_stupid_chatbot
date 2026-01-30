@@ -1,0 +1,275 @@
+{
+  "subject_id": "CPV301",
+  "subject_code": "CPV301",
+  "subject_name": "Computer Vision",
+  "subject_name_vi": "Thị giác máy tính",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course provides the basics of computer vision including image representation, camera models, feature extraction, segmentation, object detection, and tracking.",
+    "major_instructional_areas": [
+      "Image representation and lighting",
+      "Camera models and calibration",
+      "Edge and line detection",
+      "Filtering and feature extraction",
+      "Image segmentation",
+      "Object detection and recognition",
+      "Object tracking",
+      "Computer vision project implementation"
+    ],
+    "additional_learning": [
+      "Advanced image processing",
+      "Real-world CV project with photos and videos"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact slots to be accepted to the final examination",
+      "mandatory": true,
+      "related_policy": "Attendance policy"
+    },
+    {
+      "task": "Complete and submit all exercises on time",
+      "mandatory": true,
+      "related_policy": "Assignment submission policy"
+    },
+    {
+      "task": "Use laptop in class only for learning purpose",
+      "mandatory": true,
+      "related_policy": "Classroom conduct"
+    },
+    {
+      "task": "Promptly access FU CMS for up-to-date course information",
+      "mandatory": true,
+      "related_policy": "Learning management system usage"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Understand the basics of computer vision and its applications" },
+      { "clo_id": "CLO2", "description": "Understand image formation, lighting, camera models and calibration" },
+      { "clo_id": "CLO3", "description": "Apply basic image processing and filtering techniques" },
+      { "clo_id": "CLO4", "description": "Implement feature extraction, edge and line detection" },
+      { "clo_id": "CLO5", "description": "Understand segmentation techniques such as active contours and mean shift" },
+      { "clo_id": "CLO6", "description": "Discuss feature-based 2D and 3D alignment" },
+      { "clo_id": "CLO7", "description": "Discuss and implement image stitching" },
+      { "clo_id": "CLO8", "description": "Understand and implement object detection techniques" },
+      { "clo_id": "CLO9", "description": "Explain face recognition and object tracking principles" }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Computer Vision: A Modern Approach",
+        "author": "David Forsyth, Jean Ponce",
+        "publisher": "Pearson",
+        "published_year": 2011,
+        "edition": "2nd",
+        "isbn": "978-0136085928",
+        "is_main": true,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Computer Vision: Algorithms and Applications",
+        "author": "Richard Szeliski",
+        "publisher": "Springer",
+        "published_year": 2010,
+        "edition": "1st",
+        "isbn": "978-1848829343",
+        "url": "https://szeliski.org/Book/",
+        "note": ""
+      },
+      {
+        "title": "Multiple View Geometry in Computer Vision",
+        "author": "Richard Hartley",
+        "publisher": "Cambridge University Press",
+        "published_year": 2004,
+        "edition": "2nd",
+        "isbn": "978-0521540513",
+        "note": ""
+      },
+      {
+        "title": "OpenCV Computer Vision with Python",
+        "author": "Joseph Howse",
+        "publisher": "Packt",
+        "published_year": 2013,
+        "edition": "1st",
+        "isbn": "978-1782163923",
+        "note": ""
+      },
+      {
+        "title": "Course slides",
+        "provider": "Instructor",
+        "note": ""
+      },
+      {
+        "title": "Labs & assignments",
+        "provider": "Instructor",
+        "note": ""
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignments",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 0,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": ["lecturer_defined"],
+      "no_of_questions": 0,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9"],
+      "knowledge_skill_focus": "All syllabus topics",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "computer_marked": false,
+        "exam_board_marked": false
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "lab",
+      "display_name": "Labs",
+      "category": "on-going",
+      "part": 4,
+      "quantity": 4,
+      "weight": 10,
+      "duration_minutes": 90,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": ["lecturer_defined"],
+      "no_of_questions": 0,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9"],
+      "knowledge_skill_focus": "Practical coding and conceptual understanding",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "computer_marked": false,
+        "exam_board_marked": false
+      },
+      "notes": "Includes code execution, conceptual understanding, AI-assisted skill, and critical thinking"
+    },
+    {
+      "assessment_type": "practical_exam",
+      "display_name": "Practical Exam",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 20,
+      "duration_minutes": 90,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": [],
+      "no_of_questions": 0,
+      "clos": ["CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9"],
+      "knowledge_skill_focus": "Practical computer vision implementation",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "computer_marked": false,
+        "exam_board_marked": false
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 60,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 50,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6"],
+      "knowledge_skill_focus": "Core theoretical topics",
+      "grading_method": "Computer or instructor marked",
+      "rules": {
+        "computer_marked": true,
+        "exam_board_marked": false
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+      "completion_criteria": "Final exam score >= 4",
+      "format": ["in-class"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 50,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9"],
+      "knowledge_skill_focus": "All syllabus topics",
+      "grading_method": "Computer marked",
+      "rules": {
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+      "notes": ""
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "According to course instructor",
+    "retake_policy": "According to university regulations",
+    "academic_integrity": "Plagiarism and cheating are strictly prohibited"
+  },
+
+  "tools_software": [
+    "Textbook",
+    "PyCharm",
+    "MATLAB",
+    "Internet"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "lab_grading_criteria",
+      "final_exam_policy",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "Strong emphasis on practical labs and CV projects"
+    ]
+  },
+
+  "source": "Official syllabus CPV301",
+  "last_updated": "2026-01-30"
+}

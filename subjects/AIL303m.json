@@ -1,0 +1,263 @@
+{
+  "subject_id": "AIL303m",
+  "subject_code": "AIL303m",
+  "subject_name": "Machine Learning",
+  "subject_name_vi": "Học máy",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "Introduction to Exploratory Data Analysis, Supervised Machine Learning, and Unsupervised Machine Learning, focusing on data preparation, modeling, evaluation, and insight discovery.",
+    "major_instructional_areas": [
+      "Exploratory Data Analysis for Machine Learning",
+      "Supervised Machine Learning",
+      "Unsupervised Machine Learning"
+    ],
+    "additional_learning": [
+      "Feature engineering",
+      "Model evaluation and selection",
+      "Clustering and dimensionality reduction"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact slots to be accepted to the final examination",
+      "mandatory": true,
+      "related_policy": "Attendance policy"
+    },
+    {
+      "task": "Complete and submit all exercises, assignments and labs on time",
+      "mandatory": true,
+      "related_policy": "Assignment submission policy"
+    },
+    {
+      "task": "Use laptop in class only for learning purpose",
+      "mandatory": true,
+      "related_policy": "Classroom conduct"
+    },
+    {
+      "task": "Promptly access FU LMS for up-to-date course information",
+      "mandatory": true,
+      "related_policy": "Learning management system usage"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Use common techniques to retrieve data from SQL, NoSQL, APIs and Cloud" },
+      { "clo_id": "CLO2", "description": "Describe and use feature selection and feature engineering techniques" },
+      { "clo_id": "CLO3", "description": "Detect and handle outliers" },
+      { "clo_id": "CLO4", "description": "Describe and use supervised models" },
+      { "clo_id": "CLO5", "description": "Use error metrics to compare supervised models" },
+      { "clo_id": "CLO6", "description": "Apply oversampling and undersampling for unbalanced classes" },
+      { "clo_id": "CLO7", "description": "Explain problems suitable for Unsupervised Learning" },
+      { "clo_id": "CLO8", "description": "Explain the curse of dimensionality in clustering" },
+      { "clo_id": "CLO9", "description": "Use common clustering and dimensionality-reduction algorithms" },
+      { "clo_id": "CLO10", "description": "Implement a mini capstone ML project from data collection to reporting" }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "IBM Introduction to Machine Learning Specialization",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/specializations/ibm-intro-machine-learning"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Exploratory Data Analysis for Machine Learning",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/ibm-exploratory-data-analysis-for-machine-learning",
+        "note": ""
+      },
+      {
+        "title": "Supervised Machine Learning: Regression",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/supervised-machine-learning-regression",
+        "note": ""
+      },
+      {
+        "title": "Supervised Machine Learning: Classification",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/supervised-machine-learning-classification",
+        "note": ""
+      },
+      {
+        "title": "Unsupervised Machine Learning",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/ibm-unsupervised-machine-learning",
+        "note": ""
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "lab",
+      "display_name": "Lab 1",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 0,
+      "completion_criteria": ">0",
+      "format": ["home lab"],
+      "question_type": [],
+      "no_of_questions": 2,
+      "clos": ["CLO1", "CLO2", "CLO3"],
+      "knowledge_skill_focus": "Module 1",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "lab",
+      "display_name": "Lab 2",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 0,
+      "completion_criteria": ">0",
+      "format": ["home lab"],
+      "question_type": [],
+      "no_of_questions": 2,
+      "clos": ["CLO4", "CLO5"],
+      "knowledge_skill_focus": "Module 2",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "project",
+      "display_name": "Mini Capstone",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 0,
+      "completion_criteria": ">0",
+      "format": ["project"],
+      "question_type": [],
+      "no_of_questions": 2,
+      "clos": ["CLO10"],
+      "knowledge_skill_focus": "All modules",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Tests (4)",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 4,
+      "weight": 20,
+      "duration_minutes": 30,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 20,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO8","CLO9","CLO10"],
+      "knowledge_skill_focus": "Modules 1-4",
+      "grading_method": "Computer or instructor marked",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+      "completion_criteria": "Final exam score >= 4",
+      "format": ["in-class"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 50,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8","CLO9"],
+      "knowledge_skill_focus": "All modules",
+      "grading_method": "Computer marked",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+      "notes": ""
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "According to course instructor",
+    "retake_policy": "According to university regulations",
+    "academic_integrity": "Plagiarism and cheating are strictly prohibited"
+  },
+
+  "tools_software": [
+    "jupyterlite",
+    "JupyterLab"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": []
+  },
+
+  "source": "Official syllabus AIL303m",
+  "last_updated": "2026-01-30"
+}

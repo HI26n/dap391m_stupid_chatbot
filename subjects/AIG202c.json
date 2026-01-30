@@ -1,0 +1,184 @@
+{
+  "subject_id": "AIG202c",
+  "subject_code": "AIG202c",
+  "subject_name": "Artificial Intelligence",
+  "subject_name_vi": "Trí tuệ nhân tạo",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 0,
+    "slots_per_week": 0,
+    "minutes_per_slot": 0
+  },
+
+  "description": {
+    "overview": "This course introduces fundamental concepts of Artificial Intelligence (AI), its applications and use cases across various industries. It is designed for learners with little or no background in AI and does not require programming skills.",
+    "major_instructional_areas": [
+      "Introduction to Artificial Intelligence and real-world applications",
+      "Machine Learning, Deep Learning and Neural Networks concepts",
+      "Generative AI models and tools",
+      "Prompt Engineering basics",
+      "IBM Watson AI services and chatbot development",
+      "No-code AI tools and platforms"
+    ],
+    "additional_learning": [
+      "Hands-on no-code AI exercises",
+      "Building and deploying AI-powered chatbots",
+      "Exploring AI use cases in business and customer service"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Complete all courses in the AI Foundations for Everyone specialization on Coursera.",
+      "mandatory": true,
+      "related_policy": "Must obtain certification to be eligible for final exam."
+    },
+    {
+      "task": "Participate in no-code hands-on exercises and chatbot development activities.",
+      "mandatory": true,
+      "related_policy": ""
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 0,
+    "must_complete_additional_learning": true,
+    "additional_learning_required_for": [
+      "Final Exam eligibility"
+    ]
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      {
+        "clo_id": "CLO1",
+        "description": "Understand what is AI, its applications and use cases, its ethical considerations and how it is transforming our lives."
+      },
+      {
+        "clo_id": "CLO2",
+        "description": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks."
+      },
+      {
+        "clo_id": "CLO3",
+        "description": "Explore common generative AI models and tools for text, code, image, audio, and video generation."
+      },
+      {
+        "clo_id": "CLO4",
+        "description": "Explore commonly used tools for prompt engineering."
+      },
+      {
+        "clo_id": "CLO5",
+        "description": "Visually create chatbots with Watson Assistant and deploy them on a website."
+      }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "AI Foundations for Everyone Specialization",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "SPEC: AI Foundations for Everyone"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/introduction-to-ai",
+        "note": "MOOC 01"
+      },
+      {
+        "title": "Generative AI: Introduction and Applications",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/generative-ai-introduction-and-applications",
+        "note": "MOOC 02"
+      },
+      {
+        "title": "Generative AI: Prompt Engineering Basics",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone",
+        "note": "MOOC 03"
+      },
+      {
+        "title": "Building AI Powered Chatbots Without Programming",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/learn/building-ai-powered-chatbots",
+        "note": "MOOC 04"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Theory Exam (TE)",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 100,
+      "duration_minutes": 60,
+
+      "completion_criteria": "Final TE Score >= 4 and (Final TE Score + bonus) >= 5",
+      "format": ["computer_based"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 60,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5"],
+      "knowledge_skill_focus": "AI concepts, generative AI, prompt engineering, chatbot development",
+      "grading_method": "By Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": true,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Customized from quizzes of the AI Foundations for Everyone specialization."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": false,
+    "late_submission_policy": "",
+    "retake_policy": "",
+    "academic_integrity": "Students must follow Coursera Code of Conduct and university academic integrity policies."
+  },
+
+  "tools_software": [
+    "Coursera platform",
+    "Online discussion forums",
+    "Digital referencing tools"
+  ],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "Requires Coursera certification",
+      "Bonus point for early completion"
+    ]
+  },
+
+  "source": "Official syllabus + Coursera AI Foundations for Everyone",
+  "last_updated": "2026-01-30"
+}

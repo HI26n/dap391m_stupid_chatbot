@@ -1,0 +1,63 @@
+[
+  {
+    "subject": "ADY201m",
+    "requires": [
+      { "subject": "DBI202", "min_grade": 4, "type": "required" },
+      { "subject": "PFP191", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Data + programming foundations required"
+  },
+  {
+    "subject": "AIL303m",
+    "requires": [
+      { "subject": "MAS291", "min_grade": 4, "type": "required" },
+      { "subject": "MAI391", "min_grade": 4, "type": "required" },
+      { "subject": "PFP191", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Math + AI math + programming required"
+  },
+  {
+    "subject": "CPV301",
+    "requires": [
+      { "subject": "PFP191", "min_grade": 4, "type": "required" },
+      { "subject": "CSD203", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Programming and data structures required"
+  },
+  {
+    "subject": "CSD203",
+    "requires": [
+      { "subject": "PFP191", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Intro programming required before data structures"
+  },
+  {
+    "subject": "DAP391m",
+    "requires": [
+      { "subject": "PFP191", "min_grade": 4, "type": "required" },
+      { "subject": "ADY201m", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Applied data project requires Python + data science foundation"
+  },
+  {
+    "subject": "MAI391",
+    "requires": [
+      { "subject": "MAE101", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Math foundation for AI"
+  },
+  {
+    "subject": "MAS291",
+    "requires": [
+      { "subject": "MAE101", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Statistics requires math background"
+  },
+  {
+    "subject": "JPD123",
+    "requires": [
+      { "subject": "JPD113", "min_grade": 4, "type": "required" }
+    ],
+    "notes": "Japanese language progression"
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "subject_id": "DAP391m",
+  "subject_code": "DAP391m",
+  "subject_name": "AI-DS Project",
+  "subject_name_vi": "Dự án TTNT - Khoa học dữ liệu",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "From basics of data analysis with Python to building and evaluating data models, visualization, dashboards, and Watson AI services integration.",
+    "major_instructional_areas": [
+      "Data Analysis with Python",
+      "Data Visualization",
+      "Dashboard and Reporting",
+      "Watson AI Services Integration",
+      "Applied Data Science Project"
+    ],
+    "additional_learning": [
+      "Interactive dashboards",
+      "Model evaluation",
+      "Real-world dataset project"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact slots to be accepted to the final examination",
+      "mandatory": true,
+      "related_policy": "Attendance policy"
+    },
+    {
+      "task": "Complete and submit all exercises, assignments and labs on time",
+      "mandatory": true,
+      "related_policy": "Assignment submission policy"
+    },
+    {
+      "task": "Use laptop in class only for learning purpose",
+      "mandatory": true,
+      "related_policy": "Classroom conduct"
+    },
+    {
+      "task": "Promptly access FU LMS for up-to-date course information",
+      "mandatory": true,
+      "related_policy": "Learning management system usage"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": [
+      "IBM certification for +0.5 bonus points"
+    ]
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Understand basics of data analysis with Python and building data models" },
+      { "clo_id": "CLO2", "description": "Import, clean, wrangle data, perform EDA and create visualizations" },
+      { "clo_id": "CLO3", "description": "Visualize both small and large-scale data effectively" },
+      { "clo_id": "CLO4", "description": "Implement various basic and advanced charts and graphs" },
+      { "clo_id": "CLO5", "description": "Implement applications using multiple Watson AI services" },
+      { "clo_id": "CLO6", "description": "Develop AI-powered applications and solutions" },
+      { "clo_id": "CLO7", "description": "Implement a mini capstone data science project end-to-end" }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Data Analysis with Python",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-analysis-with-python"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Data Visualization with Python",
+        "provider": "IBM",
+        "url": "https://www.coursera.org/learn/python-for-data-visualization",
+        "note": ""
+      },
+      {
+        "title": "Building AI Applications with Watson APIs",
+        "provider": "IBM",
+        "url": "https://www.coursera.org/learn/building-ai-applications",
+        "note": ""
+      },
+      {
+        "title": "Applied Data Science Capstone",
+        "provider": "IBM",
+        "url": "https://www.coursera.org/learn/applied-data-science-capstone",
+        "note": ""
+      },
+      {
+        "title": "Guided Project: Simple Linear Regression for the Absolute Beginner",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/projects/simple-linear-regression-for-the-absolute-beginner",
+        "note": ""
+      },
+      {
+        "title": "Guided Project: Predict Ad Clicks Using Logistic Regression and XG-Boost",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/projects/predict-ad-clicks-using-logistic-regression-and-xg-boost",
+        "note": ""
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "project",
+      "display_name": "Final Project Evaluation",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 20,
+      "duration_minutes": 30,
+      "completion_criteria": ">=4",
+      "format": ["oral_presentation"],
+      "question_type": ["oral"],
+      "no_of_questions": 0,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "All chapters",
+      "grading_method": "Instructor graded (rubrics)",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "30 minutes per group presentation and Q&A"
+    },
+    {
+      "assessment_type": "ongoing_assessment",
+      "display_name": "On-going Assessment",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 0,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": [],
+      "no_of_questions": 0,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "Knowledge and skills",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 45,
+      "completion_criteria": ">0",
+      "format": ["in-class"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 30,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5"],
+      "knowledge_skill_focus": "Chapters 1,2,3",
+      "grading_method": "Computer or instructor marked",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "assignment",
+      "display_name": "Project Planning",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 30,
+      "completion_criteria": ">0",
+      "format": ["homework"],
+      "question_type": [],
+      "no_of_questions": 6,
+      "clos": ["CLO1"],
+      "knowledge_skill_focus": "Chapters 1-4",
+      "grading_method": "Instructor graded",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+      "completion_criteria": "Final exam score >= 4",
+      "format": ["in-class"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 50,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "Chapters 1-4",
+      "grading_method": "Computer marked",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+      "notes": ""
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "According to course instructor",
+    "retake_policy": "According to university regulations",
+    "academic_integrity": "Plagiarism and cheating are strictly prohibited"
+  },
+
+  "tools_software": [
+    "Jupyter Notebooks",
+    "JupyterLab",
+    "RStudio IDE",
+    "Git",
+    "GitHub",
+    "Watson Studio"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "bonus_point_policy",
+      "final_project_guidelines",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "IBM certification bonus +0.5"
+    ]
+  },
+
+  "source": "Official syllabus DAP391m",
+  "last_updated": "2026-01-30"
+}

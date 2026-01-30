@@ -1,0 +1,58 @@
+{
+"assessment_types": [
+{
+"type": "Participation",
+"description": "Điểm chuyên cần và tham gia hoạt động trên lớp",
+"common_formats": ["Attendance", "In-class activity"],
+"typical_weight_range": [5, 10]
+},
+{
+"type": "Presentation",
+"description": "Thuyết trình cá nhân hoặc nhóm",
+"common_formats": ["Slides", "Oral"],
+"typical_weight_range": [5, 15]
+},
+{
+"type": "ProgressTest",
+"description": "Bài kiểm tra giữa kỳ",
+"common_formats": ["MCQ", "Written", "Coding"],
+"typical_weight_range": [10, 30]
+},
+{
+"type": "Lab",
+"description": "Thực hành trên máy",
+"common_formats": ["Coding", "Report"],
+"typical_weight_range": [10, 30]
+},
+{
+"type": "Assignment",
+"description": "Bài tập lớn cá nhân hoặc nhóm",
+"common_formats": ["Report", "Coding"],
+"typical_weight_range": [10, 30]
+},
+{
+"type": "Exercise",
+"description": "Bài tập nhỏ, thường xuyên",
+"common_formats": ["MCQ", "Short answer", "Coding"],
+"typical_weight_range": [5, 15]
+},
+{
+"type": "Project",
+"description": "Dự án lớn (thường theo nhóm)",
+"common_formats": ["Report", "Presentation"],
+"typical_weight_range": [10, 40]
+},
+{
+"type": "PracticalExam",
+"description": "Thi thực hành",
+"common_formats": ["Coding", "Hands-on"],
+"typical_weight_range": [20, 40]
+},
+{
+"type": "FinalExam",
+"description": "Thi cuối kỳ",
+"common_formats": ["MCQ", "Written", "Coding", "Speaking"],
+"typical_weight_range": [20, 50]
+}
+]
+}

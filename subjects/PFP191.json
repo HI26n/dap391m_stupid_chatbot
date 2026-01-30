@@ -1,0 +1,276 @@
+{
+  "subject_id": "PFP191",
+  "subject_code": "PFP191",
+  "subject_name": "Programming Fundamentals with Python",
+  "subject_name_vi": "Cơ sở lập trình (với Python)",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course introduces fundamental programming concepts using Python, focusing on problem solving, coding design, and object-oriented programming. The course emphasizes practical programming skills required for advanced courses and real-world applications.",
+    "major_instructional_areas": [
+      "Development environment and Python ecosystem",
+      "Variables, expressions, and statements",
+      "Conditional execution, loops, and functions",
+      "Strings and text processing",
+      "File handling",
+      "Lists, dictionaries, and tuples",
+      "Object-oriented programming (OOP)"
+    ],
+    "additional_learning": [
+      "Practice coding on online platforms",
+      "Self-study with online Python tutorials and MOOCs",
+      "Project-based learning for applying OOP concepts"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Students must attend at least 80% of contact slots to be accepted to the final examination.",
+      "mandatory": true,
+      "related_policy": "Attendance requirement for final exam eligibility"
+    },
+    {
+      "task": "Students must complete all assigned exercises in class or at home and submit them on time.",
+      "mandatory": true,
+      "related_policy": "Assignment submission policy"
+    },
+    {
+      "task": "Students must regularly check the FLM system for updated course information and feedback.",
+      "mandatory": true,
+      "related_policy": "Learning management system usage policy"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Understand the development environment (IDE), programming concepts and Python ecosystem." },
+      { "clo_id": "CLO2", "description": "Understand variables, expressions, and statements." },
+      { "clo_id": "CLO3", "description": "Understand conditional execution, functions, loops, and iterations." },
+      { "clo_id": "CLO4", "description": "Understand strings and text processing." },
+      { "clo_id": "CLO5", "description": "Understand file handling." },
+      { "clo_id": "CLO6", "description": "Understand lists, dictionaries, and tuples." },
+      { "clo_id": "CLO7", "description": "Understand object-oriented programming and apply OOP in practical applications." }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Python for Everybody: Exploring Data Using Python 3",
+        "author": "Charles R. Severance",
+        "publisher": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+        "published_year": "2016",
+        "edition": "1st",
+        "isbn": "978-1530051120",
+        "is_main": true,
+        "is_online": true,
+        "note": "Primary textbook (free online PDF available)"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Python for Everybody (PY4E)",
+        "provider": "Charles R. Severance",
+        "url": "https://www.py4e.com/",
+        "note": "Official course website and practice materials"
+      },
+      {
+        "title": "Python for Everybody Specialization",
+        "provider": "Coursera",
+        "url": "https://www.coursera.org/specializations/python",
+        "note": "MOOC specialization for extended practice"
+      },
+      {
+        "title": "Python Programming and Numerical Methods",
+        "provider": "UC Berkeley",
+        "url": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+        "note": "Supplementary material for engineering and scientific computing"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignment",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 15,
+      "duration_minutes": 0,
+
+      "completion_criteria": ">0",
+      "format": ["review"],
+      "question_type": [],
+      "no_of_questions": null,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7"],
+      "knowledge_skill_focus": "All programming fundamentals",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "In-class assignment graded by teacher."
+    },
+    {
+      "assessment_type": "lab",
+      "display_name": "Lab",
+      "category": "on-going",
+      "part": 5,
+      "quantity": 5,
+      "weight": 10,
+      "duration_minutes": 90,
+
+      "completion_criteria": ">0",
+      "format": ["review"],
+      "question_type": [],
+      "no_of_questions": null,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7"],
+      "knowledge_skill_focus": "Hands-on programming practice",
+      "grading_method": "Instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Each lab is 90 minutes and graded in class."
+    },
+    {
+      "assessment_type": "practical_exam",
+      "display_name": "Practical Exam",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 85,
+
+      "completion_criteria": ">0",
+      "format": ["coding"],
+      "question_type": ["programming"],
+      "no_of_questions": null,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7"],
+      "knowledge_skill_focus": "Applied Python programming",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Hands-on practical programming exam."
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test",
+      "category": "on-going",
+      "part": 2,
+      "quantity": 2,
+      "weight": 15,
+      "duration_minutes": 30,
+
+      "completion_criteria": ">0",
+      "format": ["quiz"],
+      "question_type": ["multiple choice", "suitable format"],
+      "no_of_questions": 20,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7"],
+      "knowledge_skill_focus": "Programming theory and concepts",
+      "grading_method": "Computer-based or instructor grading",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Test 1 covers CLO1-3; Test 2 covers CLO4-7."
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+
+      "completion_criteria": ">=4",
+      "format": ["computer-based"],
+      "question_type": ["multiple choice"],
+      "no_of_questions": 50,
+
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4", "CLO5", "CLO6", "CLO7"],
+      "knowledge_skill_focus": "All subjects in syllabus",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+
+      "notes": "At least 70% of final exam questions must be different from previous exams."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "Follow university regulations",
+    "retake_policy": "According to university retake policy",
+    "academic_integrity": "All academic integrity and plagiarism policies must be strictly followed"
+  },
+
+  "tools_software": [
+    "Visual Studio Code",
+    "Google Colab",
+    "Python interpreter"
+  ],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "additional_learning_requirements",
+      "final_exam_conditions",
+      "materials_recommendation"
+    ],
+    "important_flags": [
+      "Core programming foundation for AI and computer science students"
+    ]
+  },
+
+  "source": "Official syllabus - PFP191 Programming Fundamentals with Python",
+  "last_updated": "2026-01-30"
+}

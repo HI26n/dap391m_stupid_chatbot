@@ -1,0 +1,188 @@
+{
+  "subject_id": "ITE303c",
+  "subject_code": "ITE303c",
+  "subject_name": "Ethics in IT",
+  "subject_name_vi": "Đạo đức trong CNTT",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 0,
+    "slots_per_week": 0,
+    "minutes_per_slot": 0
+  },
+
+  "description": {
+    "overview": "This course explores ethical issues in artificial intelligence and machine learning, including algorithmic limitations, fairness, bias, privacy and security. Students will analyze ethical implications of AI systems and apply ethical reasoning to real-world scenarios.",
+    "major_instructional_areas": [
+      "Algorithmic models and limitations",
+      "Fairness and bias in machine learning",
+      "Privacy and data protection",
+      "Security in AI systems",
+      "Ethics in applied AI projects"
+    ],
+    "additional_learning": [
+      "Case study analysis",
+      "Ethical impact assessment projects"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Obtain the certification of Ethics in the Age of AI Specialization from Coursera to be accepted to the final examination.",
+      "mandatory": true,
+      "related_policy": "Certification requirement"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": null,
+    "completion_criteria": [
+      "Final TE Score >= 4",
+      "Final TE Score + bonus >= 5",
+      "Complete all MOOCs and obtain specialization certificates"
+    ],
+    "bonus_policy": "Students who complete all MOOCs before the course deadline receive 1 bonus point"
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      {
+        "clo_id": "CLO1",
+        "description": "Understand the rise of algorithms and the broader implications of artificial intelligence for society."
+      },
+      {
+        "clo_id": "CLO2",
+        "description": "Explore fundamental issues of fairness and bias in machine learning and ethical model development."
+      },
+      {
+        "clo_id": "CLO3",
+        "description": "Explore security and privacy concepts in machine learning and their impact on user privacy and transparency."
+      },
+      {
+        "clo_id": "CLO4",
+        "description": "Apply bias and fairness analysis in real-world or fictional ethical scenarios."
+      }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "MOOC 1: Artificial Intelligence Algorithms Models and Limitations",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-algorithm-limitations?specialization=ethics-in-ai"
+      },
+      {
+        "title": "MOOC 2: Artificial Intelligence Data Fairness and Bias",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-data-bias?specialization=ethics-in-ai"
+      },
+      {
+        "title": "MOOC 3: Artificial Intelligence Privacy and Convenience",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-privacy-and-convenience?specialization=ethics-in-ai"
+      },
+      {
+        "title": "MOOC 4: Artificial Intelligence Ethics in Action",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-ethics-analysis?specialization=ethics-in-ai"
+      },
+      {
+        "title": "Help Articles - Coursera Code of Conduct",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.support/s/article/208280036-Coursera-Code-of-Conduct?language=en_US"
+      },
+      {
+        "title": "Ethics in the Age of AI Specialization",
+        "author": "",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/specializations/ethics-in-ai"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 100,
+      "duration_minutes": 60,
+      "completion_criteria": "4",
+      "format": ["Multiple choice"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 50,
+      "clos": ["CLO1", "CLO2", "CLO3", "CLO4"],
+      "knowledge_skill_focus": "All studied courses",
+      "grading_method": "Exam board - Computer based",
+      "rules": {
+        "requires_additional_learning_certificate": true,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+      "notes": "Customized from specialization quizzes. Multiple evaluation rounds at weeks 9, 13 and 14 for certified students."
+    }
+  ],
+
+  "tools_software": [],
+
+  "difficulty_level": "introductory",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "ethical_ai_concepts",
+      "fairness_and_bias",
+      "privacy_and_security",
+      "final_exam_conditions",
+      "certification_requirements"
+    ],
+    "important_flags": [
+      "Coursera specialization certification required",
+      "Bonus for early MOOC completion"
+    ]
+  },
+
+  "source": "Official syllabus ITE303c",
+  "last_updated": "2026-01-30"
+}

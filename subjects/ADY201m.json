@@ -1,0 +1,397 @@
+{
+  "subject_id": "ADY201m",
+  "subject_code": "ADY201m",
+  "subject_name": "AI, Data Science with Python & SQL",
+  "subject_name_vi": "TTNT, KHDL với Python và SQL",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "The course covers relational database concepts, foundational knowledge of the SQL language and popular tools for data science. Students will learn data science methodology, data gathering, descriptive statistics, data visualization and basic machine learning.",
+    "major_instructional_areas": [
+      "Relational database concepts",
+      "SQL foundations",
+      "Data science methodology",
+      "Data gathering and data cleaning",
+      "Descriptive statistics",
+      "Data visualization",
+      "Introductory machine learning"
+    ],
+    "additional_learning": [
+      "Hands-on labs with Python and SQL",
+      "Project-based learning"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Students must attend at least 80% of contact slots to be accepted to the final examination.",
+      "mandatory": true,
+      "related_policy": "Attendance policy"
+    },
+    {
+      "task": "Complete all exercises, assignments and labs on time.",
+      "mandatory": true,
+      "related_policy": "Coursework policy"
+    },
+    {
+      "task": "Use laptop in class only for learning purposes.",
+      "mandatory": true,
+      "related_policy": "Classroom policy"
+    },
+    {
+      "task": "Promptly access FU FLM system for up-to-date course information.",
+      "mandatory": true,
+      "related_policy": "LMS usage"
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "completion_criteria": [
+      "Every on-going assessment component > 0",
+      "Final Project Evaluation >= 4",
+      "Final Exam Score >= 4",
+      "Final Result >= 5"
+    ],
+    "bonus_policy": "Final Project plus 0.5 points for completed IBM certification"
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Understand relational database concepts and foundational knowledge of the SQL language." },
+      { "clo_id": "CLO2", "description": "Define an overview of what data science is today." },
+      { "clo_id": "CLO3", "description": "Know tools for Data Science and use at least one tool for Data Science." },
+      { "clo_id": "CLO4", "description": "Understand data science methodology and why it is needed." },
+      { "clo_id": "CLO5", "description": "Discuss Python fundamentals, Python libraries and API support for data science." },
+      { "clo_id": "CLO6", "description": "Explain statistics for Data Science including descriptive statistics and visualization." },
+      { "clo_id": "CLO7", "description": "Implement a small data science project using Python and data structures." }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "What is Data Science?",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/what-is-datascience?specialization=ibm-data-science"
+      },
+      {
+        "title": "Data Science Methodology",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-science-methodology?specialization=ibm-data-science"
+      },
+      {
+        "title": "Databases and SQL for Data Science with Python",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": true,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/sql-data-science"
+      },
+      {
+        "title": "Tools for Data Science",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/open-source-tools-for-data-science?specialization=ibm-data-science"
+      },
+      {
+        "title": "Python for Data Science, AI & Development",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/python-for-applied-data-science-ai?specialization=ibm-data-science"
+      },
+      {
+        "title": "Statistics for Data Science with Python",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/statistics-for-data-science-python"
+      },
+      {
+        "title": "Python Project for Data Science",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/python-project-for-data-science?specialization=ibm-data-science"
+      },
+      {
+        "title": "GP1 - Data Manipulation with dplyr in R",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/projects/data-manipulation-with-dplyr-in-r"
+      },
+      {
+        "title": "GP2 - Scikit-Learn to Solve Regression ML Problems",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_year": "",
+        "edition": "",
+        "isbn": "",
+        "is_main": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/projects/scikit-learn-to-solve-regression-ml-problems"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "final_project_evaluation",
+      "display_name": "Final Project Evaluation",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 20,
+      "duration_minutes": 30,
+      "completion_criteria": "4",
+      "format": ["Oral"],
+      "question_type": ["Presentation", "Q&A"],
+      "no_of_questions": null,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "All chapters; knowledge and skills",
+      "grading_method": "Exam board",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": null
+      },
+      "notes": "Group presentation, evaluated by at least two teachers based on rubrics."
+    },
+    {
+      "assessment_type": "ongoing_assessment_1",
+      "display_name": "On going assessment 1",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": null,
+      "completion_criteria": ">0",
+      "format": ["Follow lecturer proposal"],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": ["CLO1","CLO2","CLO3"],
+      "knowledge_skill_focus": "Knowledge and skills",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "From start to 16th session"
+    },
+    {
+      "assessment_type": "ongoing_assessment_2",
+      "display_name": "On going assessment 2",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": null,
+      "completion_criteria": ">0",
+      "format": ["Follow lecturer proposal"],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": ["CLO4","CLO5"],
+      "knowledge_skill_focus": "Knowledge and skills",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "From 16th to 36th session"
+    },
+    {
+      "assessment_type": "ongoing_assessment_3",
+      "display_name": "On going assessment 3",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": null,
+      "completion_criteria": ">0",
+      "format": ["Follow lecturer proposal"],
+      "question_type": [],
+      "no_of_questions": null,
+      "clos": ["CLO6","CLO7"],
+      "knowledge_skill_focus": "Knowledge and skills",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": "From 37th session to end"
+    },
+    {
+      "assessment_type": "progress_test_1",
+      "display_name": "Progress test 1",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 45,
+      "completion_criteria": ">0",
+      "format": ["Multiple choice"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 30,
+      "clos": ["CLO1","CLO2","CLO3","CLO4"],
+      "knowledge_skill_focus": "Chapter 1-4",
+      "grading_method": "Computer marked",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "progress_test_2",
+      "display_name": "Progress test 2",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 45,
+      "completion_criteria": ">0",
+      "format": ["Multiple choice"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 30,
+      "clos": ["CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "Chapter 5-7",
+      "grading_method": "Computer marked",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "project_planning",
+      "display_name": "Project Planning",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 30,
+      "completion_criteria": ">0",
+      "format": ["Homework"],
+      "question_type": [],
+      "no_of_questions": 6,
+      "clos": ["CLO1","CLO2"],
+      "knowledge_skill_focus": "Chapter 1-6",
+      "grading_method": "Instructor",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+      "notes": ""
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 20,
+      "duration_minutes": 60,
+      "completion_criteria": "4",
+      "format": ["Multiple choice"],
+      "question_type": ["MCQ"],
+      "no_of_questions": 50,
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "Chapter 1-7",
+      "grading_method": "Exam board - Computer based",
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+      "notes": ""
+    }
+  ],
+
+  "tools_software": [
+    "Jupyter Notebooks",
+    "JupyterLab",
+    "RStudio IDE",
+    "Git",
+    "GitHub",
+    "Watson Studio"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "project_guidelines",
+      "final_exam_conditions",
+      "materials_recommendation",
+      "data_science_tools_support"
+    ],
+    "important_flags": [
+      "IBM certification bonus"
+    ]
+  },
+
+  "source": "Official syllabus ADY201m",
+  "last_updated": "2026-01-30"
+}

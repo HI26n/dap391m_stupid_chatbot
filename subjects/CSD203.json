@@ -1,0 +1,318 @@
+{
+  "subject_id": "CSD203",
+  "subject_code": "CSD203",
+  "subject_name": "Data Structures and Algorithm with Python",
+  "subject_name_vi": "Cấu trúc dữ liệu và giải thuật với Python",
+  "degree_level": "Bachelor",
+  "credits": 3,
+
+  "time_allocation": {
+    "weeks": 10,
+    "slots_per_week": 2,
+    "minutes_per_slot": 140
+  },
+
+  "description": {
+    "overview": "This course introduces the basic concepts of data structures and algorithms using Python, focusing on both theoretical foundations and practical implementation.",
+    "major_instructional_areas": [
+      "Algorithm analysis fundamentals",
+      "Lists and linked list implementations",
+      "Stacks and queues",
+      "Recursion and recursive algorithms",
+      "Trees and Binary Search Trees",
+      "Graphs and graph applications",
+      "Hashing techniques",
+      "Sorting algorithms",
+      "Text processing and compression algorithms"
+    ],
+    "additional_learning": [
+      "Hands-on programming with Python",
+      "Lab-based practice on data structure implementation",
+      "Problem-solving with algorithmic thinking"
+    ]
+  },
+
+  "student_tasks": [
+    {
+      "task": "Attend at least 80% of contact slots to be eligible for the final examination.",
+      "mandatory": true,
+      "related_policy": "Minimum attendance requirement"
+    },
+    {
+      "task": "Complete all exercises, assignments and labs on time.",
+      "mandatory": true,
+      "related_policy": ""
+    },
+    {
+      "task": "Use laptop in class only for learning purposes.",
+      "mandatory": false,
+      "related_policy": ""
+    },
+    {
+      "task": "Regularly access https://flm.fpt.edu.vn/ for up-to-date course information.",
+      "mandatory": false,
+      "related_policy": ""
+    }
+  ],
+
+  "grading_policy": {
+    "scoring_scale": 10,
+    "min_average_mark_to_pass": 5,
+    "min_attendance_percentage": 80,
+    "must_complete_additional_learning": false,
+    "additional_learning_required_for": []
+  },
+
+  "learning_outcomes": {
+    "clos": [
+      { "clo_id": "CLO1", "description": "Describe list data structures and implement singly linked lists." },
+      { "clo_id": "CLO2", "description": "Define and implement stack and queue data structures." },
+      { "clo_id": "CLO3", "description": "Describe and implement recursion and recursive algorithms." },
+      { "clo_id": "CLO4", "description": "Explain trees, binary trees and Binary Search Trees, and implement BST operations." },
+      { "clo_id": "CLO5", "description": "Discuss graphs and their applications, and implement basic graph operations." },
+      { "clo_id": "CLO6", "description": "Explain the operation and performance of sorting algorithms." },
+      { "clo_id": "CLO7", "description": "Explain hashing techniques and applications." },
+      { "clo_id": "CLO8", "description": "Describe text processing problems and compression algorithms such as Huffman, LZW and Run-length encoding." }
+    ]
+  },
+
+  "learning_materials": {
+    "main_materials": [
+      {
+        "title": "Data Structures and Algorithms in Python",
+        "author": "Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser",
+        "publisher": "Wiley",
+        "published_year": "2013",
+        "edition": "1st",
+        "isbn": "9781118290279",
+        "is_main": true,
+        "is_online": true,
+        "note": "Online via Wiley platform"
+      }
+    ],
+    "additional_learning_materials": [
+      {
+        "title": "Data Structures and Algorithms using Python",
+        "provider": "Wiley",
+        "url": "",
+        "note": "Rance D. Necaise"
+      },
+      {
+        "title": "Data Structures and Algorithms with Python",
+        "provider": "Springer",
+        "url": "",
+        "note": "Kent D. Lee, Steve Hubbard"
+      },
+      {
+        "title": "PowerPoint Slides",
+        "provider": "",
+        "url": "",
+        "note": "Instructor provided slides"
+      },
+      {
+        "title": "Assignments and Labs",
+        "provider": "",
+        "url": "",
+        "note": "Course exercises and lab materials"
+      }
+    ]
+  },
+
+  "assessment_config": [
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignment 1",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 45,
+
+      "completion_criteria": ">0",
+      "format": ["written_test"],
+      "question_type": ["written"],
+      "no_of_questions": 2,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4"],
+      "knowledge_skill_focus": "Content 1,2,3,4",
+      "grading_method": "Instructor",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Instructor reviews after grading."
+    },
+    {
+      "assessment_type": "assignment",
+      "display_name": "Assignment 2",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 45,
+
+      "completion_criteria": ">0",
+      "format": ["written_test"],
+      "question_type": ["written"],
+      "no_of_questions": 2,
+
+      "clos": ["CLO5","CLO6","CLO7","CLO8"],
+      "knowledge_skill_focus": "Content 5,6,7,8",
+      "grading_method": "Instructor",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Instructor reviews after grading."
+    },
+    {
+      "assessment_type": "practical_exam",
+      "display_name": "Practical Exam",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 85,
+
+      "completion_criteria": ">0",
+      "format": ["computer_based"],
+      "question_type": ["written"],
+      "no_of_questions": 2,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7"],
+      "knowledge_skill_focus": "Content 1-7",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": false,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+
+      "notes": "Computer-based practical exam."
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test 1",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 30,
+
+      "completion_criteria": ">0",
+      "format": ["multiple_choice"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 30,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4"],
+      "knowledge_skill_focus": "Content 1,2,3,4",
+      "grading_method": "Instructor / Computer",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Taken after required lectures."
+    },
+    {
+      "assessment_type": "progress_test",
+      "display_name": "Progress Test 2",
+      "category": "on-going",
+      "part": 1,
+      "quantity": 1,
+      "weight": 10,
+      "duration_minutes": 30,
+
+      "completion_criteria": ">0",
+      "format": ["multiple_choice"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 30,
+
+      "clos": ["CLO5","CLO6","CLO7","CLO8"],
+      "knowledge_skill_focus": "Content 5,6,7,8",
+      "grading_method": "Instructor / Computer",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": false,
+        "min_question_change_percentage": null
+      },
+
+      "notes": "Taken after required lectures."
+    },
+    {
+      "assessment_type": "final_exam",
+      "display_name": "Final Exam",
+      "category": "final",
+      "part": 1,
+      "quantity": 1,
+      "weight": 30,
+      "duration_minutes": 60,
+
+      "completion_criteria": "Final exam taken",
+      "format": ["multiple_choice"],
+      "question_type": ["multiple_choice"],
+      "no_of_questions": 50,
+
+      "clos": ["CLO1","CLO2","CLO3","CLO4","CLO5","CLO6","CLO7","CLO8"],
+      "knowledge_skill_focus": "All studied chapters; concepts and algorithms",
+      "grading_method": "Exam Board",
+
+      "rules": {
+        "requires_additional_learning_certificate": false,
+        "computer_marked": true,
+        "exam_board_marked": true,
+        "min_question_change_percentage": 70
+      },
+
+      "notes": "Computer-based final exam."
+    }
+  ],
+
+  "academic_rules": {
+    "attendance_required": true,
+    "late_submission_policy": "",
+    "retake_policy": "",
+    "academic_integrity": "Students must follow university academic integrity policies."
+  },
+
+  "tools_software": [
+    "Thonny",
+    "PyCharm",
+    "Visual Studio Code"
+  ],
+
+  "difficulty_level": "intermediate",
+
+  "chatbot_metadata": {
+    "can_answer": [
+      "assessment_explaining",
+      "clo_mapping",
+      "attendance_rules",
+      "final_exam_conditions",
+      "materials_recommendation",
+      "prerequisite_check"
+    ],
+    "important_flags": [
+      "Core data structures subject",
+      "Heavy coding and algorithm practice"
+    ]
+  },
+
+  "source": "Official syllabus CSD203",
+  "last_updated": "2026-01-30"
+}
