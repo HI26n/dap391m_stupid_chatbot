@@ -1,0 +1,117 @@
+{
+  "institution": "FPT University",
+  "policy_source": "QD 545 - Student Regulations",
+  "version": "1.2.0",
+
+  "attendance_policy": {
+    "default_total_slots": 20,
+    "max_absent_percent": 20,
+    "min_attendance_percent": 80,
+    "max_absent_slots_example": 4,
+    "attendance_required_for_exam": true,
+
+    "attendance_method": {
+      "mode": "lecturer_defined",
+      "options": [
+        "in_class_roll_call",
+        "online_checkin",
+        "lms_tracking"
+      ]
+    },
+
+    "rule": "Absent more than allowed percentage may result in exam ineligibility"
+  },
+
+  "final_exam_policy": {
+    "final_exam_required": true,
+    "min_final_exam_score": 4.0,
+    "no_final_exam_equals_fail": true,
+
+    "retake_final_exam": {
+      "allowed": true,
+      "fee_required": true,
+      "max_attempts": 2
+    }
+  },
+
+  "overall_grade_policy": {
+    "grading_scale": "0-10",
+    "min_overall_to_pass": 5.0,
+    "calculation_method": "weighted_average",
+    "rounding_rule": "standard_rounding"
+  },
+
+  "assessment_policy": {
+    "components": [
+      "quiz",
+      "lab",
+      "assignment",
+      "presentation",
+      "project",
+      "midterm",
+      "final_exam"
+    ],
+    "weight_defined_by_lecturer": true,
+    "total_weight_must_equal": 100
+  },
+
+  "prerequisite_policy": {
+    "rule_type": "overall_threshold",
+    "min_overall_required": 4.0,
+    "must_formally_pass": false,
+    "conditional_registration_allowed": true,
+
+    "notes": [
+      "Sinh viên có thể học môn sau nếu overall >= 4.0",
+      "Không bắt buộc phải pass môn tiên quyết trong mọi trường hợp"
+    ]
+  },
+
+  "course_repeat_policy": {
+    "repeat_if_fail": true,
+    "repeat_fee_required": true,
+    "latest_grade_used": true,
+    "history_kept": true
+  },
+
+  "exam_eligibility_policy": {
+    "attendance_condition": true,
+    "disciplinary_block": true,
+    "financial_block": true
+  },
+
+  "academic_integrity_policy": {
+    "plagiarism": {
+      "allowed": false,
+      "penalty": [
+        "zero_score",
+        "disciplinary_action"
+      ]
+    },
+    "cheating": {
+      "allowed": false,
+      "penalty": [
+        "cancel_exam",
+        "fail_course",
+        "disciplinary_action"
+      ]
+    }
+  },
+
+  "grade_review_policy": {
+    "appeal_allowed": true,
+    "appeal_deadline_days": 3,
+    "appeal_channel": [
+      "FAP",
+      "academic_department"
+    ],
+    "remark_result_final": true
+  },
+
+  "chatbot_enforcement_rules": {
+    "must_follow_attendance_policy": true,
+    "must_check_final_and_overall": true,
+    "must_check_prerequisite_threshold": true,
+    "no_policy_no_assumption": true
+  }
+}
